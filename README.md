@@ -6,7 +6,10 @@ JavaScript.
 https://momotofu.github.io/cat-clicker/
 
 ## Usage
-Download the repository to your local machine and open `index.html` in your favorite browser.
+1. Clone this repository to your local computer.
+2. Change into the repo's directory.
+3. Open your console and run `npm i` to install dependencies.
+4. Open `index.html` in your favorite browser.
 
 #### TODO
 - fix image flicker when changing between cats
