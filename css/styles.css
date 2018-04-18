@@ -1,0 +1,132 @@
+@import url('./animation.css');
+
+html {
+  font-family: helvetica;
+  font-size: 18px;
+  background: #FAFAFA;
+}
+
+body {
+  background: #FAFAFA;
+}
+
+.admin {
+  background-color: #212121;
+  border: solid 2px #212121;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  max-width: 640px;
+  margin: auto;
+}
+
+.admin__panel {
+  content: '';
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: absolute;
+  z-index: 10;
+}
+
+.btn-outline-secondary {
+  border-width: 2px;
+}
+
+.main__section {
+  text-align: center;
+}
+
+.btn {
+  background: #fff;
+  color: #212121;
+  border-color: #212121;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+#adminButton:hover {
+  background-color: #FFD740;
+  color: #212121;
+}
+
+.aside {
+  max-width: 240px;
+  width: 100%;
+}
+
+.cat-list__item {
+  border: 2px solid #212121;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+  transition: all .2s ease;
+}
+
+.cat-list__item:hover {
+  cursor: pointer;
+  background-color: #8BC34A;
+}
+
+.cat-list__item:first-child {
+  border-top-width: 2px;
+}
+
+.cat-list__item:last-child {
+  border-bottom-width: 2px;
+}
+
+.cat-list__item--active {
+  background-color: #212121;
+  color: white;
+}
+
+
+.cat-list__item:active {
+  background-color: #212121;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  color: #4CAF50;
+  margin-top: -9px;
+}
+
+.hero-container {
+  margin: auto;
+  margin-top: 17px;
+}
+
+.hero-container:hover {
+  cursor: pointer;
+}
+
+.hero-image {
+  border-radius: 3px;
+  max-width: 640px;
+  max-height: 359px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.hero-image:hover {
+  opacity: 0.95;
+}
+
+.hero-image:active {
+  opacity: 1;
+}
+
+.buzz-out {
+  animation-name: buzz-out;
+  animation-duration: 0900ms;
+}
+
+.number-of-clicks {
+  color: red;
+  font-weight: bold;
+}
