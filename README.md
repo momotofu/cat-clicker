@@ -13,3 +13,4 @@ https://momotofu.github.io/cat-clicker/
 
 #### TODO
 - fix image flicker when changing between cats
+- fix mobile
